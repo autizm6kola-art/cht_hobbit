@@ -1,6 +1,6 @@
 
 
-const STORAGE_PREFIX = "chtenie_hobbit_";
+const STORAGE_PREFIX = "chtenie_muha_";
 const USE_SUPABASE = false;
 
 const localStorageImpl = {

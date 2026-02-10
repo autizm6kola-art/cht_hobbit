@@ -13,7 +13,7 @@ function BackupControls() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'chtenie_hobbit_backup.json';
+    a.download = 'chtenie_muha_backup.json';
     a.click();
     URL.revokeObjectURL(url);
   };

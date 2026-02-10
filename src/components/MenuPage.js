@@ -5,7 +5,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { clearAllAnswers, getUserInputs } from '../utils/storage';
-import BackButton from './BackButton';
+// import BackButton from './BackButton';
 import ProgressBar from './ProgressBar';
 import '../styles/menuPage.css';
 import BackupControls from './BackupControls';
@@ -33,7 +33,7 @@ function MenuPage({ allTasks, onSelectRange }) {
     setCorrectWordsCount(correct);
 
     // ДИАПОЗОН — количество заданий в одной кнопке
-    const rangeSize = 65;
+    const rangeSize = 10;
     const newRangesProgress = {};
 
     for (let i = 0; i < allTasks.length; i += rangeSize) {
@@ -80,8 +80,8 @@ function MenuPage({ allTasks, onSelectRange }) {
 
   return (
     <div className="menu-container">
-      <BackButton />
-      <h1 className="menu-title">Хоббит.</h1>
+      {/* <BackButton /> */}
+      <h1 className="menu-title">Муха-цокотуха.</h1>
 
       <ProgressBar correct={correctWordsCount} total={totalWords} />
 
@@ -115,7 +115,7 @@ function MenuPage({ allTasks, onSelectRange }) {
             window.location.reload();
           }}
         >
-          Сбросить все ответы
+          Сбросить всё
         </button>
       </div>
       <div className="reset-button-contaner"><BackupControls /></div>
