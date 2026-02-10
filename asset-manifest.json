@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cht_hobbit/static/css/main.5e4c5916.css",
-    "main.js": "/cht_hobbit/static/js/main.7d689070.js",
-    "static/js/453.d37bcb50.chunk.js": "/cht_hobbit/static/js/453.d37bcb50.chunk.js",
-    "index.html": "/cht_hobbit/index.html",
-    "main.5e4c5916.css.map": "/cht_hobbit/static/css/main.5e4c5916.css.map",
-    "main.7d689070.js.map": "/cht_hobbit/static/js/main.7d689070.js.map",
-    "453.d37bcb50.chunk.js.map": "/cht_hobbit/static/js/453.d37bcb50.chunk.js.map"
+    "main.css": "/cht_muha/static/css/main.474e836e.css",
+    "main.js": "/cht_muha/static/js/main.5ece6507.js",
+    "static/js/453.d37bcb50.chunk.js": "/cht_muha/static/js/453.d37bcb50.chunk.js",
+    "index.html": "/cht_muha/index.html",
+    "main.474e836e.css.map": "/cht_muha/static/css/main.474e836e.css.map",
+    "main.5ece6507.js.map": "/cht_muha/static/js/main.5ece6507.js.map",
+    "453.d37bcb50.chunk.js.map": "/cht_muha/static/js/453.d37bcb50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e4c5916.css",
-    "static/js/main.7d689070.js"
+    "static/css/main.474e836e.css",
+    "static/js/main.5ece6507.js"
   ]
 }
